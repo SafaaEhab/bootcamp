@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- form -->
+    <form action="" method="get">
+        <label for="name">
+            Enter Your Name
+        </label>
+        <input type="text" name="name" id="name" value="name" readonly>
+        <br>
+        <br>
+        <label for="email">
+            Enter Your Email
+        </label>
+        <input type="email" name="email" id="email" placeholder="EX.email">
+        <br>
+        <br>
+        <label for="password">
+            Enter Your Password
+        </label>
+        <input type="password" name="password" id="Password">
+        <br>
+        <br>
+        <label for="phone">
+            Enter Your Phone
+        </label>
+        <input type="text" name="phone" id="phone" placeholder="+20123424" disabled>
+        <br>
+        <br>
+        <hr>
+        <label for="male">
+            Male
+        </label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="Female">
+            FeMale
+        </label>
+        <input type="radio" name="gender" value="Female" id="Female">
+        <hr>
+        <label for="html">
+            Html
+        </label>
+        <input type="checkbox" name="front" id="html" value="html">
+        <label for="css">
+            CSS
+        </label>
+        <input type="checkbox" name="front" id="css" value="css">
+        <label for="js">
+            JS
+        </label>
+        <input type="checkbox" name="front" id="js" value="js">
+        <hr>
+           <select name="full" id="">
+            <optgroup label="Front-end">
+                <option value="html">Html</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="php" selected>PHP</option>
+                <option value="c#">C#</option>
+                <option value="Mysql">Mysql</option>
+            </optgroup>
+           </select>
+           <br>
+           <br>
+           <textarea name="message" id="" cols="40" rows="10" placeholder="message"></textarea>
+           <br>
+           <br>
+           <button>
+            send
+           </button>
+    </form>
+    <!-- form -->
+    <br><br>
+    <a href="second.html">
+        Go To Page 2
+    </a>
+</body>
+
+</html>
